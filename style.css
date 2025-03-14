@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+/* Fundo preto e centralização */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #181818;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estiliza a imagem central */
+.container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Container centralizado */
+.container {
+    text-align: center;
+}
+
+/* Título estilizado */
+h1 {
+    font-family:"Bungee Shade", sans-serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Botão estilizado */
+#recordBtn {
+    background: #9121dc;
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 15px #9121dc;
+    transition: 0.3s ease;
+}
+
+#recordBtn:hover {
+    background: #9121dc;
+    box-shadow: 0 0 25px #9121dc;
+    transform: scale(1.05);
+}
+
+/* Status e resultado */
+#status {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #aaa;
+}
+
+/* Canvas para ondas sonoras */
+#visualizer {
+    width: 100%;
+    max-width: 500px;
+    height: 150px;
+    margin-top: 20px;
+    background: transparent;
+}
