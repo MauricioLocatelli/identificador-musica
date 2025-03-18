@@ -68,3 +68,16 @@ h1 {
     margin-top: 20px;
     background: transparent;
 }
+
+.footer{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    color: #555;
+}
