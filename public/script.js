@@ -21,7 +21,7 @@ recordBtn.addEventListener("click", async () => {
     formData.append("audio", audioBlob);
 
     try {
-      const response = await fetch("/identify", {
+      const response = await fetch("/api/identify", {
         method: "POST",
         body: formData,
       });
